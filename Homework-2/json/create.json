@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Basic T-Shirt",
+    "description": "A comfortable cotton t-shirt available in multiple sizes.",
+    "image": "https://example.com/images/tshirt.png",
+    "variants": [
+      {
+        "name": "Small T-Shirt",
+        "description": "Small size t-shirt",
+        "sku": "SKU001",
+        "price": 19.99,
+        "stock": 50,
+        "optionValues": [
+          { "value": "Small" },
+          { "value": "Red" }
+        ]
+      },
+      {
+        "name": "Medium T-Shirt",
+        "description": "Medium size t-shirt",
+        "sku": "SKU002",
+        "price": 19.99,
+        "stock": 30,
+        "optionValues": [
+          { "value": "Medium" },
+          { "value": "Blue" }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          { "value": "Small" },
+          { "value": "Medium" },
+          { "value": "Large" }
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          { "value": "Red" },
+          { "value": "Blue" },
+          { "value": "Green" }
+        ]
+      }
+    ],
+    "collections": [
+      {
+        "name": "Summer Collection",
+        "description": "Perfect for summer wear"
+      }
+    ]
+  },
+  {
+    "name": "Classic Hoodie",
+    "description": "A stylish and warm hoodie available in various colors.",
+    "image": "https://example.com/images/hoodie.png",
+    "variants": [
+      {
+        "name": "Large Hoodie",
+        "description": "Large size hoodie",
+        "sku": "SKU003",
+        "price": 39.99,
+        "stock": 20,
+        "optionValues": [
+          { "value": "Large" },
+          { "value": "Black" }
+        ]
+      },
+      {
+        "name": "Extra Large Hoodie",
+        "description": "Extra large size hoodie",
+        "sku": "SKU004",
+        "price": 42.99,
+        "stock": 15,
+        "optionValues": [
+          { "value": "XL" },
+          { "value": "Gray" }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "name": "Size",
+        "values": [
+          { "value": "Large" },
+          { "value": "XL" },
+          { "value": "XXL" }
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          { "value": "Black" },
+          { "value": "Gray" },
+          { "value": "White" }
+        ]
+      }
+    ],
+    "collections": [
+      {
+        "name": "Winter Collection",
+        "description": "Stay warm this winter with our cozy hoodies"
+      }
+    ]
+  },
+  {
+    "name": "Sports Cap",
+    "description": "A breathable cap for outdoor activities.",
+    "image": "https://example.com/images/cap.png",
+    "variants": [
+      {
+        "name": "Adjustable Cap",
+        "description": "One size fits all with adjustable strap.",
+        "sku": "SKU005",
+        "price": 15.99,
+        "stock": 100,
+        "optionValues": [
+          { "value": "Adjustable" },
+          { "value": "Blue" }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "name": "Fit",
+        "values": [
+          { "value": "Adjustable" },
+          { "value": "Fitted" }
+        ]
+      },
+      {
+        "name": "Color",
+        "values": [
+          { "value": "Blue" },
+          { "value": "White" },
+          { "value": "Black" }
+        ]
+      }
+    ],
+    "collections": [
+      {
+        "name": "Outdoor Collection",
+        "description": "Perfect gear for outdoor enthusiasts"
+      }
+    ]
+  }
+]
